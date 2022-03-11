@@ -1,0 +1,171 @@
+{
+	"id": "9cedd961-fa48-47bb-8cdc-c90851103bc3",
+	"name": "ecommerces user",
+	"timestamp": "2022-03-11T04:17:06.874Z",
+	"collection_id": "19955311-67cd086f-f4f7-4a07-b00a-332cb7cd0236",
+	"folder_id": 0,
+	"environment_id": "19955311-00cb5fd2-8623-4e1b-9529-d3319c77042f",
+	"totalPass": 9,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "088d5278-ab29-4cae-acb7-2360609f660f",
+			"name": "signup",
+			"time": 2780,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2834,
+				2758,
+				2803,
+				2780
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "01f7fab0-f563-410f-9319-c04a80b7d805",
+			"name": "login",
+			"time": 2759,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				2793,
+				2858,
+				4083,
+				2759
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "52e892ba-3a4f-48d3-9b76-e0e7f27f71ec",
+			"name": "get all users",
+			"time": 1242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				1247,
+				1243,
+				1239,
+				1242
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8323848f-7af8-40a3-9b45-e613c586adf0",
+			"name": "delete",
+			"time": 217,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 3
+				}
+			},
+			"times": [
+				640,
+				223,
+				226,
+				217
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 29945,
+	"collection": {
+		"requests": [
+			{
+				"id": "088d5278-ab29-4cae-acb7-2360609f660f",
+				"method": "POST"
+			},
+			{
+				"id": "01f7fab0-f563-410f-9319-c04a80b7d805",
+				"method": "POST"
+			},
+			{
+				"id": "52e892ba-3a4f-48d3-9b76-e0e7f27f71ec",
+				"method": "GET"
+			},
+			{
+				"id": "8323848f-7af8-40a3-9b45-e613c586adf0",
+				"method": "DELETE"
+			}
+		]
+	}
+}
